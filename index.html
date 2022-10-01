@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Javascript Questions</title>
+</head>
+<body>
+    <h1>Basic javascript questions</h1>
+    <button onclick="printContent()">Click to print</button>
+
+    <div>
+        <h2>reverse the array</h2>
+        <pre id="target">w3resource </pre>
+        <button onclick="reverse()">Click to run</button>   
+    </div>
+
+    <p id="comment"></p>
+
+
+    <div class="calculation">
+        <fieldset>
+            <legend>calculations field</legend>
+                <label for="input1">Input 1</label>
+                <input type="number" id="input1">
+                <br>
+                <br>
+                <label for="input2">Input 2</label>
+                <input type="number" id="input2">
+                <br>
+                <br>
+                <button type="button" onclick="multiply()">multiply</button>
+                <button type="button" onclick="divide()">divide</button>
+                <p>result is: </p>
+                <p id="output"></p>
+        </fieldset>
+    </div>
+
+    <fieldset>
+        <legend>Temprature count</legend>
+
+        <label for="">Inter Temprature</label>
+        <input type="number" id="temp">
+        <br>
+        <button type="button" onclick="ferToCel()">Celius</button>
+        <button type="button" onclick="celToFer()">Fahrenheit</button>
+        <p id="result"></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Fetch URL</legend>
+        <button type="button" onclick="getUrl()">Click to get URL</button>
+        <p id="url"></p>
+    </fieldset>
+
+    <!-- <script src="reverse.js"></script>
+    <script src="./currentDate.js"></script>
+    <script src="./dateObject.js"></script>
+    <script src="./printWindowContent.js"></script>
+    <script src="./areaOfTriangle.js"></script>
+    <script src="./leapYear.js"></script> -->
+    <script src="./calculation.js"></script>
+    <!-- <script src="./window.js"></script> -->
+</body>
+</html>
